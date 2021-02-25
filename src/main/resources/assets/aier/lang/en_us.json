@@ -1,0 +1,32 @@
+{
+  "itemGroup.aier.aier": "Anti-internal Energy Revolution",
+  "item.aier.help_book": "§bRevolutionary Program",
+  "item.aier.ice_core": "Ice Core",
+  "item.aier.icy_iron_ingot": "Icy Iron Ingot",
+  "item.aier.black_icy_iron_ingot": "Black Icy Iron Ingot",
+  "item.aier.icy_iron_stick": "Icy Iron Stick",
+  "item.aier.black_icy_iron_stick": "Black Icy Iron Stick",
+  "item.aier.icy_iron_gear": "Icy Iron Gear",
+  "item.aier.black_icy_iron_gear": "Black Icy Iron Gear",
+  "item.aier.ingot_mold": "Ingot Mold",
+  "item.aier.stick_mold": "Stick Mold",
+  "item.aier.gear_mold": "Gear Mold",
+  "item.aier.crushed_ice": "Crushed Ice",
+  "item.aier.heavy_hammer": "heavy_hammer",
+
+  "block.aier.icy_iron_block": "Icy Iron Block",
+  "block.aier.black_ice": "Black Ice",
+  "block.aier.black_icy_iron_block": "Black Icy Iron Block",
+  "block.aier.ice_furnace": "Ice Furnace",
+  "block.aier.hand_cranked_grinder": "Hand Cranked Grinder",
+  "block.aier.compressor": "Compressor",
+  "block.aier.shaping_machine": "Shaping Machine",
+  "item.aier.help_book.tooltip1": "§7Anti-internal Energy Revolution tutorial book",
+  "item.aier.help_book.tooltip2": "§7Edition I",
+  "item.aier.help_book.tooltip3": "§7-AR_Mr_Amzing",
+  "item.heavy_hammer.fabric_item.tooltip": "Right-click against specific blocks can make them harder",
+  "item.heavy_hammer.fabric_item.tooltip1": "You can also use it to break blocks",
+  "item.heavy_hammer.fabric_item.tooltip2": "But you should know its attack speed is so low",
+
+  "block.aier.ice_furnace.tooltip": "§7The beginning of everything"
+}

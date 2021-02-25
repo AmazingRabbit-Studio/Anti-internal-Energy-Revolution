@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "aier:block/ice_furnace_top",
+    "front": "aier:block/ice_furnace_front",
+    "side": "aier:block/ice_furnace_side"
+  }
+}

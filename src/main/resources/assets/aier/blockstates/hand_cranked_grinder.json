@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "aier:block/hand_cranked_grinder"
+    },
+    "facing=south": {
+      "model": "aier:block/hand_cranked_grinder"
+    },
+    "facing=west": {
+      "model": "aier:block/hand_cranked_grinder"
+    },
+    "facing=north": {
+      "model": "aier:block/hand_cranked_grinder"
+    }
+  }
+}

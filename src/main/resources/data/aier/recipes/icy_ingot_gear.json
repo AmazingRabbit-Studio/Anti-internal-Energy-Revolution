@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "A A",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "aier:icy_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "aier:icy_iron_gear",
+    "count": 4
+  }
+}

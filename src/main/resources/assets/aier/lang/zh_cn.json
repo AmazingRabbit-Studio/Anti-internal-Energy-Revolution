@@ -1,0 +1,33 @@
+{
+  "itemGroup.aier.aier": "反内能革命",
+  "item.aier.help_book": "§b革命纲领",
+  "item.aier.ice_core": "寒冰核心",
+  "item.aier.icy_iron_ingot": "寒铁锭",
+  "item.aier.black_icy_iron_ingot": "黑寒铁锭",
+  "item.aier.icy_iron_stick": "寒铁棍",
+  "item.aier.black_icy_iron_stick": "黑寒铁棍",
+  "item.aier.icy_iron_gear": "寒铁齿轮",
+  "item.aier.black_icy_iron_gear": "黑寒铁齿轮",
+  "item.aier.ingot_mold": "锭铸模",
+  "item.aier.stick_mold": "棍铸模",
+  "item.aier.gear_mold": "齿轮铸模",
+  "item.aier.crushed_ice": "碎冰",
+  "item.aier.heavy_hammer": "重锤",
+
+  "block.aier.icy_iron_block": "寒铁块",
+  "block.aier.black_ice": "黑冰",
+  "block.aier.black_icy_iron_block": "黑寒铁块",
+  "block.aier.ice_furnace": "寒冰熔炉",
+  "block.aier.hand_cranked_grinder": "手摇粉碎机",
+  "block.aier.compressor": "压缩机",
+  "block.aier.shaping_machine": "塑造机",
+
+  "item.aier.help_book.tooltip1": "§7反内能革命教程书",
+  "item.aier.help_book.tooltip2": "§7第I版",
+  "item.aier.help_book.tooltip3": "§7-AR_Mr_Amzing",
+  "item.heavy_hammer.fabric_item.tooltip": "右键特定的方块可以使方块变硬",
+  "item.heavy_hammer.fabric_item.tooltip1": "用它来挖方块也是可以的",
+  "item.heavy_hammer.fabric_item.tooltip2": "但是攻击速度很低",
+
+  "block.aier.ice_furnace.tooltip": "§7一切的开始"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "aier:block/hand_cranked_grinder",
+  "textures": {
+    "layer0": "aier:item/hand_cranked_grinder"
+  }
+}

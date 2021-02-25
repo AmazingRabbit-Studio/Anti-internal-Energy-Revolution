@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "hardened=false": { "model": "aier:block/icy_iron_block" },
+    "hardened=true": { "model": "aier:block/icy_iron_block" }
+  }
+}

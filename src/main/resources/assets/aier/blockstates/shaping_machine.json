@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "aier:block/shaping_machine"
+    },
+    "facing=south": {
+      "model": "aier:block/shaping_machine"
+    },
+    "facing=west": {
+      "model": "aier:block/shaping_machine"
+    },
+    "facing=north": {
+      "model": "aier:block/shaping_machine"
+    }
+  }
+}

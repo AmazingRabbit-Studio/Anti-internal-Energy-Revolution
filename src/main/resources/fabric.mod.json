@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "aier",
+  "version": "0.0.0",
+  "name": "Aier",
+  "description": "Anti-internal Energy is a mod about using ice, snow and so on to make energy. It comes from China",
+  "authors": [
+    "AmazingRabbit"
+  ],
+  "contributors": [
+    "OverRun","mo_java30433"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["io.github.armramzing.aier.client.AierClient"],
+    "main": ["io.github.armramzing.aier.Aier"]
+  },
+  "mixins": [
+    "aier.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

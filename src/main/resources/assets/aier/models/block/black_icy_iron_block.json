@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aier:block/black_icy_iron_block"
+  }
+}
