@@ -14,6 +14,7 @@ public final class Items {
     public static final Item HAND_CRANKED_GRINDER = register("hand_cranked_grinder", new BlockItem(Blocks.HAND_CRANKED_GRINDER,defaultGroup()));
     public static final Item COMPRESSOR = register("compressor", new BlockItem(Blocks.COMPRESSOR, defaultGroup()));
     public static final Item SHAPING_MACHINE = register("shaping_machine", new BlockItem(Blocks.SHAPING_MACHINE, defaultGroup()));
+    public static final Item FUSION_MACHINE = register("fusion_machine", new BlockItem(Blocks.FUSION_MACHINE, defaultGroup()));
     public static final Item ICY_IRON_BLOCK = register("icy_iron_block", new BlockItem(Blocks.ICY_IRON_BLOCK,defaultGroup()));
     public static final Item BLACK_ICE = register("black_ice", new BlockItem(Blocks.BLACK_ICE,defaultGroup()));
     public static final Item BLACK_ICY_IRON_BLOCK = register("black_icy_iron_block", new BlockItem(Blocks.BLACK_ICY_IRON_BLOCK,defaultGroup()));
@@ -21,6 +22,9 @@ public final class Items {
     public static final Item ICE_CORE = register("ice_core", new Item(defaultGroup()));
     public static final Item ICY_IRON_INGOT = register("icy_iron_ingot", new Item(defaultGroup()));
     public static final Item BLACK_ICY_IRON_INGOT = register("black_icy_iron_ingot", new Item(defaultGroup()));
+    public static final Item GOLD_IRON_ALLOY_INGOT = register("gold_iron_alloy_ingot", new Item(defaultGroup()));
+    public static final Item NETHER_IRON_ALLOY_INGOT = register("nether_iron_alloy_ingot", new Item(defaultGroup()));
+    public static final Item ENDER_IRON_ALLOY_INGOT = register("ender_iron_alloy_ingot", new Item(defaultGroup()));
     public static final Item ICY_IRON_STICK= register("icy_iron_stick", new Item(defaultGroup()));
     public static final Item BLACK_ICY_IRON_STICK= register("black_icy_iron_stick", new Item(defaultGroup()));
     public static final Item ICY_IRON_GEAR = register("icy_iron_gear", new Item(defaultGroup()));

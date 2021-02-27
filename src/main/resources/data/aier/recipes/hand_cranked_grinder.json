@@ -10,13 +10,13 @@
       "item": "aier:icy_iron_ingot"
     },
     "B": {
-      "item": "minecraft:stick"
+      "item": "aier:icy_iron_gear"
     },
     "C": {
-      "item": "aier:icy_ingot_gear"
+      "item": "aier:icy_iron_stick"
+    },
+    "result": {
+      "item": "aier:hand_cranked_grinder"
     }
-  },
-  "result": {
-    "item": "aier:hand_cranked_grinder"
   }
 }

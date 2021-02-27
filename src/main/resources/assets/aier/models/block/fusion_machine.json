@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "aier:block/fusion_machine_top",
+    "front": "aier:block/fusion_machine_front",
+    "side": "aier:block/fusion_machine_side"
+  }
+}

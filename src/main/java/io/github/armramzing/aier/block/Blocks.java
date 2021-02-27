@@ -34,6 +34,7 @@ public final class Blocks extends Block {
     public static final Block HAND_CRANKED_GRINDER = register("hand_cranked_grinder", new HandCrankedGrinder(FabricBlockSettings.of(Material.METAL).strength(2).requiresTool().breakByTool(FabricToolTags.PICKAXES,1)));
     public static final Block COMPRESSOR = register("compressor", new Compressor(FabricBlockSettings.of(Material.METAL).strength(2).requiresTool().breakByTool(FabricToolTags.PICKAXES,1)));
     public static final Block SHAPING_MACHINE = register("shaping_machine", new ShapingMachine(FabricBlockSettings.of(Material.METAL).strength(2).requiresTool().breakByTool(FabricToolTags.PICKAXES,1)));
+    public static final Block FUSION_MACHINE = register("fusion_machine", new FusionMachine(FabricBlockSettings.of(Material.METAL).strength(2).requiresTool().breakByTool(FabricToolTags.PICKAXES,1)));
     /**blockentities**/
     public static final BlockEntityType<IceFurnaceEntity> ICE_FURNACE_ENTITY =
             register("ice_furnace_entity", IceFurnaceEntity::new, ICE_FURNACE);
@@ -43,6 +44,8 @@ public final class Blocks extends Block {
             register("compressor_entity", CompressorEntity::new, COMPRESSOR);
     public static final BlockEntityType<ShapingMachineEntity> SHAPING_MACHINE_ENTITY =
             register("shaping_machine_entity", ShapingMachineEntity::new, SHAPING_MACHINE);
+    public static final BlockEntityType<FusionMachineEntity> FUSION_MACHINE_ENTITY =
+            register("fusion_machine_entity", FusionMachineEntity::new, FUSION_MACHINE);
     /**blockstates**/
     public static final BooleanProperty LIT = Properties.LIT;
 

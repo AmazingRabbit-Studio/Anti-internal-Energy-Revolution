@@ -4,6 +4,9 @@
   "item.aier.ice_core": "Ice Core",
   "item.aier.icy_iron_ingot": "Icy Iron Ingot",
   "item.aier.black_icy_iron_ingot": "Black Icy Iron Ingot",
+  "item.aier.gold_iron_alloy_ingot": "Gold-iron Alloy Ingot",
+  "item.aier.nether_iron_alloy_ingot": "Netherrack-Iron Alloy Ingot",
+  "item.aier.ender_iron_alloy_ingot": "Ender Pearl-Iron Alloy Ingot",
   "item.aier.icy_iron_stick": "Icy Iron Stick",
   "item.aier.black_icy_iron_stick": "Black Icy Iron Stick",
   "item.aier.icy_iron_gear": "Icy Iron Gear",
@@ -12,7 +15,8 @@
   "item.aier.stick_mold": "Stick Mold",
   "item.aier.gear_mold": "Gear Mold",
   "item.aier.crushed_ice": "Crushed Ice",
-  "item.aier.heavy_hammer": "heavy_hammer",
+  "item.aier.heavy_hammer": "Heavy Hammer",
+  "block.aier.fusion_machine": "Fusion Machine",
 
   "block.aier.icy_iron_block": "Icy Iron Block",
   "block.aier.black_ice": "Black Ice",
@@ -24,9 +28,9 @@
   "item.aier.help_book.tooltip1": "§7Anti-internal Energy Revolution tutorial book",
   "item.aier.help_book.tooltip2": "§7Edition I",
   "item.aier.help_book.tooltip3": "§7-AR_Mr_Amzing",
-  "item.heavy_hammer.fabric_item.tooltip": "Right-click against specific blocks can make them harder",
-  "item.heavy_hammer.fabric_item.tooltip1": "You can also use it to break blocks",
-  "item.heavy_hammer.fabric_item.tooltip2": "But you should know its attack speed is so low",
+  "item.heavy_hammer.fabric_item.tooltip": "§7Right-click against specific blocks can make them harder",
+  "item.heavy_hammer.fabric_item.tooltip1": "§7You can also use it to break blocks",
+  "item.heavy_hammer.fabric_item.tooltip2": "§7But you should know its attack speed is so low",
 
   "block.aier.ice_furnace.tooltip": "§7The beginning of everything"
 }
