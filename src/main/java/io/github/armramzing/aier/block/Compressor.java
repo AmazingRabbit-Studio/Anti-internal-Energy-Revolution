@@ -58,10 +58,11 @@ public class Compressor extends BlockWithEntity {
     public static final VoxelShape S = VoxelShapes.cuboid(0, 0, 1/16f,1/16f, 1/16f, 15/16f);
     public static final VoxelShape T = VoxelShapes.cuboid(7/16f, 10/16f, 7/16f,9/16f, 14/16f, 9/16f);
     public static final VoxelShape U = VoxelShapes.cuboid(4/16f, 7/16f, 4/16f,12/16f, 10/16f, 12/16f);
+    public static final VoxelShape V = VoxelShapes.cuboid(0, 0, 0,16/16f, 0, 16/16f);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.union(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U);
+        return VoxelShapes.union(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V);
     }
 
     @Nullable

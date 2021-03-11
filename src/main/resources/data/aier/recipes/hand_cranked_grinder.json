@@ -14,9 +14,9 @@
     },
     "C": {
       "item": "aier:icy_iron_stick"
-    },
+    }
+  },
     "result": {
       "item": "aier:hand_cranked_grinder"
     }
-  }
 }

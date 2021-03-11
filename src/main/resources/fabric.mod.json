@@ -10,6 +10,7 @@
   "contributors": [
     "OverRun","mo_java30433"
   ],
+  "icon":"assets/aier/aier.png",
   "license": "MIT",
   "environment": "*",
   "entrypoints": {

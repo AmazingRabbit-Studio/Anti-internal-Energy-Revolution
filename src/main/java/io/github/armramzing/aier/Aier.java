@@ -3,6 +3,8 @@ package io.github.armramzing.aier;
 import io.github.armramzing.aier.block.Blocks;
 import io.github.armramzing.aier.item.Items;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.minecraft.client.render.RenderLayer;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -21,5 +23,6 @@ public final class Aier implements ModInitializer {
         } catch (ClassNotFoundException e) {
             logger.catching(e);
         }
+        BlockRenderLayerMap.INSTANCE.putBlock(Blocks.BLACK_ICE, RenderLayer.getTranslucent());
     }
 }
