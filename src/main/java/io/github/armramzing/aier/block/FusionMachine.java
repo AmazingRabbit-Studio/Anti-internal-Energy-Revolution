@@ -39,13 +39,16 @@ public class FusionMachine extends BlockWithEntity {
     }
 
     public static final VoxelShape N = VoxelShapes.cuboid(0,0,3/16f,16/16f,8/16f,13/16f);
-    public static final VoxelShape E = VoxelShapes.cuboid(11/16f,0,0,2/16f,8/16f,16/16f);
+    public static final VoxelShape E = VoxelShapes.cuboid(3/16f,0,0,13/16f,8/16f,16/16f);
+    //public static final VoxelShape S = VoxelShapes.cuboid(16/16f,0,3/16f,0,8/16f,13/16f);
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
         switch((Direction)state.get(FACING)) {
             case NORTH:
+            case SOUTH:
                 return VoxelShapes.union(N);
             case EAST:
+            case WEST:
                 return VoxelShapes.union(E);
             default:
                 return VoxelShapes.fullCube();

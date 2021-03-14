@@ -59,6 +59,7 @@ public class HelpBookScreen extends Screen {
                 textRenderer1.draw(matrices, "走上你的革命之路。", x + 24, y + 90, 0);
                 textRenderer1.draw(matrices, "By: AmazingRabbit Studio", x + 24, y + 120, 0);
                 textRenderer1.draw(matrices, "Special Thanks: OverRun Organization & mo_java30433", x + 24, y + 150, 0);
+                textRenderer1.draw(matrices, "交流群:331998783", x + 24, y + 180, 0);
                 //右
                 break;
         }
