@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "0": "aier:block/compressed_cobblestone",
+    "particle": "aier:block/compressed_cobblestone"
+  }
+}

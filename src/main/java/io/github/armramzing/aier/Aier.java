@@ -10,7 +10,7 @@ import org.apache.logging.log4j.LogManager;
 
 public final class Aier implements ModInitializer {
     public static final String MODID = "aier";
-    public static final Logger logger = LogManager.getLogger("Aier");
+    public static final Logger logger = LogManager.getLogger("AIER");
 
     @Override
     public void onInitialize() {

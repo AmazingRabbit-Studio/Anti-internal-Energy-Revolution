@@ -125,23 +125,14 @@ public class HelpBookScreen extends Screen {
 
     private void goToLastPage() {
         if (page != 1) {
-            page = 2;
-            updateBook();
-        }
-        if(page-1 == 1) {
-              page = 1;
+            page--;
             updateBook();
         }
     }
 
     private void goToNextPage() {
         if (page != maxPage) {
-            if (page >= 1) {
-                page = 2;
-                updateBook();
-            }
-        }else{
-            page = 1;
+            page++;
             updateBook();
         }
     }

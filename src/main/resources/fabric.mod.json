@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "id": "aier",
-  "version": "0.0.0",
-  "name": "Aier",
+  "version": "0.0.1",
+  "name": "AIER",
   "description": "Anti-internal Energy is a mod about using ice, snow and so on to make energy. It comes from China.",
   "authors": [
     "AmazingRabbit"
