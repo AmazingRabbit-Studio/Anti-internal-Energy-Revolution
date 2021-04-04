@@ -15,9 +15,12 @@ public final class Items {
     public static final Item COMPRESSOR = register("compressor", new BlockItem(Blocks.COMPRESSOR, defaultGroup()));
     public static final Item SHAPING_MACHINE = register("shaping_machine", new BlockItem(Blocks.SHAPING_MACHINE, defaultGroup()));
     public static final Item FUSION_MACHINE = register("fusion_machine", new BlockItem(Blocks.FUSION_MACHINE, defaultGroup()));
+    public static final Item ENERGY_PERFUSION_MACHINE = register("energy_perfusion_machine", new BlockItem(Blocks.ENERGY_PERFUSION_MACHINE, defaultGroup()));
     public static final Item ICY_IRON_BLOCK = register("icy_iron_block", new BlockItem(Blocks.ICY_IRON_BLOCK,defaultGroup()));
     public static final Item BLACK_ICE = register("black_ice", new BlockItem(Blocks.BLACK_ICE,defaultGroup()));
     public static final Item BLACK_ICY_IRON_BLOCK = register("black_icy_iron_block", new BlockItem(Blocks.BLACK_ICY_IRON_BLOCK,defaultGroup()));
+    public static final Item COMPRESSED_COBBLESTONE = register("compressed_cobblestone", new BlockItem(Blocks.COMPRESSED_COBBLESTONE, defaultGroup()));
+    public static final Item HCV_ICE = register("hcv_ice", new BlockItem(Blocks.HCV_ICE,defaultGroup()));
     /**items**/
     public static final Item ICE_CORE = register("ice_core", new Item(defaultGroup()));
     public static final Item ICY_IRON_INGOT = register("icy_iron_ingot", new Item(defaultGroup()));

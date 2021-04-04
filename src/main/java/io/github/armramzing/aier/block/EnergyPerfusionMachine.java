@@ -21,11 +21,11 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
-public class FusionMachine extends BlockWithEntity {
+public class EnergyPerfusionMachine extends BlockWithEntity {
 
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
-    public FusionMachine(Settings settings) {
+    public EnergyPerfusionMachine(Settings settings) {
         super(settings);
         setDefaultState(stateManager.getDefaultState().with(FACING, Direction.NORTH));
     }
@@ -38,34 +38,18 @@ public class FusionMachine extends BlockWithEntity {
                         (FACING);
     }
 
-    public static final VoxelShape N = VoxelShapes.cuboid(0,0,3/16f,16/16f,8/16f,13/16f);
-    public static final VoxelShape E = VoxelShapes.cuboid(3/16f,0,0,13/16f,8/16f,16/16f);
-    @Override
-    public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
-        switch((Direction)state.get(FACING)) {
-            case NORTH:
-            case SOUTH:
-                return VoxelShapes.union(N);
-            case EAST:
-            case WEST:
-                return VoxelShapes.union(E);
-            default:
-                return VoxelShapes.fullCube();
-        }
-    }
-
     @Nullable
     @Override
     public BlockEntity createBlockEntity(BlockView world) {
-        return new FusionMachineEntity();
+        return new EnergyPerfusionMachineEntity();
     }
 
     @Override
     public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
         if (state.getBlock() != newState.getBlock()) {
             BlockEntity blockEntity = world.getBlockEntity(pos);
-            if (blockEntity instanceof FusionMachineEntity) {
-                ItemScatterer.spawn(world, pos, (FusionMachineEntity) blockEntity);
+            if (blockEntity instanceof EnergyPerfusionMachineEntity) {
+                ItemScatterer.spawn(world, pos, (EnergyPerfusionMachineEntity) blockEntity);
                 // update comparators
                 world.updateComparators(pos, this);
             }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CBC",
+    "CBC",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "aier:icy_iron_block"
+    },
+    "B": {
+      "item": "aier:black_icy_iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "aier:energy_perfusion_machine"
+  }
+}

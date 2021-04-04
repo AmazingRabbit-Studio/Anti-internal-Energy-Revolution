@@ -1,0 +1,7 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "0": "aier:block/energy_perfusion_machine",
+    "particle": "aier:block/energy_perfusion_machine"
+  }
+}

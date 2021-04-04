@@ -22,6 +22,8 @@ public final class ScreenHandlers {
             register("shaping_machine", ShapingMachineScreenHandler::new);
     public static final ScreenHandlerType<FusionMachineScreenHandler> FUSION_MACHINE_HANDLER =
             register("fusion_machine", FusionMachineScreenHandler::new);
+    public static final ScreenHandlerType<EnergyPerfusionMachineScreenHandler> ENERGY_PERFUSION_MACHINE_HANDLER =
+            register("energy_perfusion_machine", EnergyPerfusionMachineScreenHandler::new);
 
     private static <T extends ScreenHandler> ScreenHandlerType<T>
     register(String id,

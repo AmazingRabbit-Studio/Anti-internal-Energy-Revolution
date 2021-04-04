@@ -17,10 +17,13 @@
   "item.aier.crushed_ice": "Crushed Ice",
   "item.aier.heavy_hammer": "Heavy Hammer",
   "block.aier.fusion_machine": "Fusion Machine",
+  "block.aier.energy_perfusion_machine": "Energy Perfusion Machine",
 
   "block.aier.icy_iron_block": "Icy Iron Block",
   "block.aier.black_ice": "Black Ice",
   "block.aier.black_icy_iron_block": "Black Icy Iron Block",
+  "block.aier.compressed_cobblestone": "Compressed Cobblestone",
+  "block.aier.hcv_ice": "High Calorific Value Ice",
   "block.aier.ice_furnace": "Ice Furnace",
   "block.aier.hand_cranked_grinder": "Hand Cranked Grinder",
   "block.aier.compressor": "Compressor",

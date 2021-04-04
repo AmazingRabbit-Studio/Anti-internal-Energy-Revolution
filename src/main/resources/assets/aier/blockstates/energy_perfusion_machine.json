@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "aier:block/energy_perfusion_machine" },
+    "facing=south": { "model": "aier:block/energy_perfusion_machine", "y": 180 },
+    "facing=west": { "model": "aier:block/energy_perfusion_machine", "y": 270 },
+    "facing=east": { "model": "aier:block/energy_perfusion_machine", "y": 90 }
+  }
+}

@@ -29,12 +29,16 @@ public final class Blocks extends Block {
     /**blocks**/
     public static final Block ICY_IRON_BLOCK = register("icy_iron_block", new IcyIronBlock(FabricBlockSettings.of(Material.METAL).strength(2).requiresTool().breakByTool(FabricToolTags.PICKAXES,1)));
     public static final Block BLACK_ICY_IRON_BLOCK = register("black_icy_iron_block", new BlackIcyIronBlock(FabricBlockSettings.of(Material.METAL).strength(3).requiresTool().breakByTool(FabricToolTags.PICKAXES,2)));
-    public static final Block BLACK_ICE= register("black_ice", new BlackIce(FabricBlockSettings.of(Material.ICE).strength(0)));
+    public static final Block BLACK_ICE= register("black_ice", new BlackIce(FabricBlockSettings.of(Material.ICE).strength(3).requiresTool().breakByTool(FabricToolTags.PICKAXES,2)));
+    public static final Block COMPRESSED_COBBLESTONE= register("compressed_cobblestone", new CompressedCobblestone(FabricBlockSettings.of(Material.METAL).strength(3).requiresTool().breakByTool(FabricToolTags.PICKAXES,2)));
+    public static final Block HCV_ICE= register("hcv_ice", new HCVIce(FabricBlockSettings.of(Material.ICE).strength(0)));
     public static final Block ICE_FURNACE = register("ice_furnace", new IceFurnace(FabricBlockSettings.of(Material.METAL).strength(2).requiresTool().breakByTool(FabricToolTags.PICKAXES,1)));
     public static final Block HAND_CRANKED_GRINDER = register("hand_cranked_grinder", new HandCrankedGrinder(FabricBlockSettings.of(Material.METAL).strength(2).requiresTool().breakByTool(FabricToolTags.PICKAXES,1)));
     public static final Block COMPRESSOR = register("compressor", new Compressor(FabricBlockSettings.of(Material.METAL).strength(2).requiresTool().breakByTool(FabricToolTags.PICKAXES,1)));
     public static final Block SHAPING_MACHINE = register("shaping_machine", new ShapingMachine(FabricBlockSettings.of(Material.METAL).strength(2).requiresTool().breakByTool(FabricToolTags.PICKAXES,1)));
     public static final Block FUSION_MACHINE = register("fusion_machine", new FusionMachine(FabricBlockSettings.of(Material.METAL).strength(2).requiresTool().breakByTool(FabricToolTags.PICKAXES,1)));
+    public static final Block ENERGY_PERFUSION_MACHINE = register("energy_perfusion_machine", new EnergyPerfusionMachine(FabricBlockSettings.of(Material.METAL).strength(2).requiresTool().breakByTool(FabricToolTags.PICKAXES,1)));
+
     /**blockentities**/
     public static final BlockEntityType<IceFurnaceEntity> ICE_FURNACE_ENTITY =
             register("ice_furnace_entity", IceFurnaceEntity::new, ICE_FURNACE);
@@ -46,6 +50,8 @@ public final class Blocks extends Block {
             register("shaping_machine_entity", ShapingMachineEntity::new, SHAPING_MACHINE);
     public static final BlockEntityType<FusionMachineEntity> FUSION_MACHINE_ENTITY =
             register("fusion_machine_entity", FusionMachineEntity::new, FUSION_MACHINE);
+    public static final BlockEntityType<EnergyPerfusionMachineEntity> ENERGY_PERFUSION_MACHINE_ENTITY =
+            register("energy_perfusion_machine_entity", EnergyPerfusionMachineEntity::new, ENERGY_PERFUSION_MACHINE);
     /**blockstates**/
     public static final BooleanProperty LIT = Properties.LIT;
 
