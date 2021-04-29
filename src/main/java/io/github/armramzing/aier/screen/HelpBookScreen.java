@@ -57,7 +57,7 @@ public class HelpBookScreen extends Screen {
                 textRenderer1.draw(matrices, "§c*此页无效*", x + 62, y + 40, 0);
             case 1:
                 //左
-                textRenderer1.draw(matrices, "§l打败量子力学", x + 62, y + 40, 0);
+                textRenderer1.draw(matrices, "§l温度越高内能越小", x + 62, y + 40, 0);
                 textRenderer1.draw(matrices, "走上你的革命之路", x + 24, y + 90, 0);
                 textRenderer1.draw(matrices, "By: AmazingRabbit Studio", x + 24, y + 120, 0);
                 textRenderer1.draw(matrices, "Special Thanks: OverRun Organization & mo_java30433", x + 24, y + 150, 0);
@@ -69,8 +69,8 @@ public class HelpBookScreen extends Screen {
                 textRenderer1.draw(matrices, "寒冰熔炉，可以以冰/雪/雪球/浮冰/蓝冰/黑冰等", x + 24, y + 90, 0);
                 textRenderer1.draw(matrices, "与冰雪相关的物品为燃料，同时可以将一种冰雪燃料" , x + 24, y + 106, 0);
                 textRenderer1.draw(matrices, "烧制升级为能燃烧更长时间的燃料" , x + 24, y + 122, 0);
-                textRenderer1.draw(matrices, "寒冰熔炉的燃烧速度比熔炉、烟熏炉和高炉都要快" , x + 24, y + 138, 0);
-                textRenderer1.draw(matrices, "但是如果要大规模部署你将需要一个制冰工厂" , x + 24, y + 154, 0);
+                textRenderer1.draw(matrices, "寒冰熔炉的燃烧速度比熔炉要快" , x + 24, y + 138, 0);
+                textRenderer1.draw(matrices, "熔炼获得的经验也更多" , x + 24, y + 154, 0);
                 break;
             case 3:
                 textRenderer1.draw(matrices, "§l手摇粉碎机",x + 62, y + 40, 0);
@@ -111,6 +111,31 @@ public class HelpBookScreen extends Screen {
                 textRenderer1.draw(matrices, "可以将此物品变为冰系物品",x + 24, y + 122, 0);
                 textRenderer1.draw(matrices, "如果将黑色的物品中的黑暗能量灌注给物品",x + 24, y + 138, 0);
                 textRenderer1.draw(matrices, "可以获得更强力但是可能有副作用的物品" , x + 24, y + 154, 0);
+                textRenderer1.draw(matrices, "灌注灵魂沙或灵魂土中的能量" , x + 24, y + 170, 0);
+                textRenderer1.draw(matrices, "可以获得带有各种加成的物品" , x + 24, y + 186, 0);
+                textRenderer1.draw(matrices, "甚至可以混合灌注能量" , x + 24, y + 202, 0);
+                break;
+            case 8:
+                textRenderer1.draw(matrices, "§l重锤",x + 62, y + 40, 0);
+                textRenderer1.draw(matrices, "右键特定的方块可以使方块变硬",x + 24, y + 90, 0);
+                textRenderer1.draw(matrices, "用它来挖方块也是可以的",x + 24, y + 106, 0);
+                textRenderer1.draw(matrices, "攻击速度很低",x + 24, y + 122, 0);
+                break;
+            case 9:
+                textRenderer1.draw(matrices, "§l鬼火剑",x + 62, y + 40, 0);
+                textRenderer1.draw(matrices, "自带火焰附加127",x + 24, y + 90, 0);
+                textRenderer1.draw(matrices, "冒着蓝火",x + 24, y + 106, 0);
+                textRenderer1.draw(matrices, "蕴含着被囚禁的灵魂的力量",x + 24, y + 122, 0);
+                break;
+            case 10:
+                textRenderer1.draw(matrices, "§l友谊之剑",x + 62, y + 40, 0);
+                textRenderer1.draw(matrices, "经过这么多次的冒险",x + 24, y + 90, 0);
+                textRenderer1.draw(matrices, "你终于破解了六个元素的奥秘",x + 24, y + 106, 0);
+                textRenderer1.draw(matrices, "他们都指向同一样东西——友谊",x + 24, y + 122, 0);
+                textRenderer1.draw(matrices, "这把剑融合了六元素的所有力量",x + 24, y + 138, 0);
+                textRenderer1.draw(matrices, "以及背后那六位先贤的精神",x + 24, y + 154, 0);
+                textRenderer1.draw(matrices, "你突然意识到了一件事——友 谊 是 魔 法",x + 24, y + 170, 0);
+                textRenderer1.draw(matrices, "恭喜你通关本模组，感谢游玩",x + 24, y + 186, 0);
                 break;
         }
         super.render(matrices, mouseX, mouseY, delta);

@@ -74,4 +74,7 @@ publishing {
         // uncomment to publish to the local maven
         // mavenLocal()
     }
+    minecraft {
+        accessWidener "src/main/resources/aier.accesswidener"
+    }
 }

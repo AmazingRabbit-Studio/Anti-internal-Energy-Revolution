@@ -1,4 +1,4 @@
-package io.github.armramzing.aier.item;
+package io.github.armramzing.aier.item.tools;
 
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;

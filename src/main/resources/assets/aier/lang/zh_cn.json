@@ -1,5 +1,6 @@
 {
   "itemGroup.aier.aier": "反内能革命",
+
   "item.aier.help_book": "§b革命纲领",
   "item.aier.ice_core": "寒冰核心",
   "item.aier.icy_iron_ingot": "寒铁锭",
@@ -15,7 +16,18 @@
   "item.aier.stick_mold": "棍铸模",
   "item.aier.gear_mold": "齿轮铸模",
   "item.aier.crushed_ice": "碎冰",
+  "item.aier.magic_of_friendship": "友谊魔法",
   "item.aier.heavy_hammer": "重锤",
+  "item.aier.blue_fire_sword": "§b鬼火剑",
+  "item.aier.friendship_sword": "§5§l友§b§l谊§e§l之§d§l剑",
+
+  "item.aier.chain_of_bats_magic": "蝙蝠枷锁[魔法]",
+  "item.aier.angel_soul_magic": "天使灵魂[魔法]",
+  "item.aier.absolute_zero_magic": "绝对零度[魔法]",
+
+  "item.aier.beating_skill": "捶打[技艺]",
+  "item.aier.casting_skill": "铸造[技艺]",
+  "item.aier.quenching_skill": "淬火[技艺]",
 
   "block.aier.icy_iron_block": "寒铁块",
   "block.aier.black_ice": "黑冰",
@@ -34,7 +46,24 @@
   "item.aier.help_book.tooltip3": "§7-AR_Mr_Amzing",
   "item.heavy_hammer.fabric_item.tooltip": "§7右键特定的方块可以使方块变硬",
   "item.heavy_hammer.fabric_item.tooltip1": "§7用它来挖方块也是可以的",
-  "item.heavy_hammer.fabric_item.tooltip2": "§7但是攻击速度很低",
+  "item.heavy_hammer.fabric_item.tooltip2": "§7攻击速度很低",
+  "item.blue_fire_sword.fabric_item.tooltip": "§b§l鬼火一响",
+  "item.blue_fire_sword.fabric_item.tooltip1": "§4§l爹妈白养",
+  "item.friendship_sword.fabric_item.tooltip": "§5§l友谊是魔法！！！",
+  "item.friendship_sword.fabric_item.tooltip1": "§b§l这把剑还可以再酷20%",
+  "item.friendship_sword.fabric_item.tooltip2": "§d§l这是本模组的最强武器",
+  "item.friendship_sword.fabric_item.tooltip3": "§6§l拿到这把剑说明你已通关本模组",
+  "item.friendship_sword.fabric_item.tooltip4": "§l恭喜！",
+  "item.friendship_sword.fabric_item.tooltip5": "§e§l-AR_Mr_Amzing",
+
+  "item.chain_of_bats_magic.fabric_item.tooltip": "给予敌人持续3秒的凋零3和漂浮1",
+  "item.chain_of_bats_magic.fabric_item.tooltip1": "给予自己持续3秒的生命恢复1",
+  "item.chain_of_bats_magic.fabric_item.tooltip2": "§5§l史诗",
+  "item.angel_soul_magic.fabric_item.tooltip": "给予自己持续15秒的缓降",
+  "item.angel_soul_magic.fabric_item.tooltip1": "§a一般",
+  "item.absolute_zero_magic.fabric_item.tooltip": "给予敌人持续7秒的缓慢127",
+  "item.absolute_zero_magic.fabric_item.tooltip1": "§b普通",
+
 
   "block.aier.ice_furnace.tooltip": "§7一切的开始"
 }

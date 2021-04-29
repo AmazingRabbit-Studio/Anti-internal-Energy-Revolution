@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "aier",
-  "version": "0.0.1",
-  "name": "AIER",
-  "description": "Anti-internal Energy is a mod about using ice, snow and so on to make energy. It comes from China.",
+  "version": "0.0.2",
+  "name": "Anti-internal Energy Revolution",
+  "description": "Anti-internal Energy Revolution is a mod about using ice, snow and so on to make energy. It comes from China. Leader & Programming AR_Mr_Amzing Art water_blaze 高丽参配红酒 隔壁老王",
   "authors": [
     "AmazingRabbit"
   ],
   "contributors": [
-    "OverRun","mo_java30433"
+    "OverRun Organization","mo_java30433"
   ],
   "icon":"assets/aier/aier.png",
   "license": "MIT",
@@ -24,5 +24,6 @@
     "fabricloader": ">=0.9.0",
     "fabric": "*",
     "minecraft": "1.16.x"
-  }
+  },
+  "accessWidener": "aier.accesswidener"
 }

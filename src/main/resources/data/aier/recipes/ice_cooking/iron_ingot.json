@@ -1,0 +1,9 @@
+{
+  "type": "aier:ice_cooking",
+  "ingredient": {
+    "item": "minecraft:iron_ore"
+  },
+  "result": "minecraft:iron_ingot",
+  "experience": 1.4,
+  "cookingTime":100
+}

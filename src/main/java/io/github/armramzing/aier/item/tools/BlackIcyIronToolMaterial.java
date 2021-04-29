@@ -1,12 +1,13 @@
-package io.github.armramzing.aier.item;
+package io.github.armramzing.aier.item.tools;
 
+import io.github.armramzing.aier.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 public class BlackIcyIronToolMaterial implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 500;
+        return 512;
     }
 
     @Override

@@ -59,8 +59,8 @@ public final class Blocks extends Block {
     BlockEntityType<T> register(String id,
                                 Supplier<T> supplier,
                                 Block block) {
-        return Registry.register(Registry.BLOCK_ENTITY_TYPE,
-                new Identifier(Aier.MODID, id),
+        return Aier.register(Registry.BLOCK_ENTITY_TYPE,
+                id,
                 BlockEntityType.Builder.create(supplier, block)
                         .build(null));
     }
