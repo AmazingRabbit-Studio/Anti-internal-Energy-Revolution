@@ -35,6 +35,8 @@ public final class Aier implements ModInitializer {
         load(Blocks.class);
         load(Items.class);
         load(IceCookingRecipeRegistry.class);
-        BlockRenderLayerMap.INSTANCE.putBlock(Blocks.BLACK_ICE, RenderLayer.getTranslucent());
+        //transparent block
+        BlockRenderLayerMap.INSTANCE.putBlock(Blocks.BLACK_ICE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Blocks.HCV_ICE, RenderLayer.getCutout());
     }
 }
