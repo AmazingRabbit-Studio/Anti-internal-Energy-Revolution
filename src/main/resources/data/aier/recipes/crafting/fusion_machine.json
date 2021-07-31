@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "B B",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "item": "aier:black_icy_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "aier:fusion_machine"
+  }
+}

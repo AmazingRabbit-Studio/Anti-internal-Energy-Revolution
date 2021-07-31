@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "aier:item/help_book"
+    "layer0": "aier:item/ender_iron_alloy_ingot"
   }
 }

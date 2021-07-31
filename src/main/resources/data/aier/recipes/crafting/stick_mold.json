@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " A ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "aier:icy_iron_stick"
+    }
+  },
+  "result": {
+    "item": "aier:stick_mold",
+    "count": 1
+  }
+}

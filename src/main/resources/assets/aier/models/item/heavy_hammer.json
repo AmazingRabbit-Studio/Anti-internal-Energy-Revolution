@@ -1,6 +1,5 @@
 {
   "credit": "Made with Blockbench",
-  "parent": "aier:block/heavy_hammer",
   "textures": {
     "0": "aier:item/heavy_hammer",
     "particle": "aier:item/heavy_hammer"

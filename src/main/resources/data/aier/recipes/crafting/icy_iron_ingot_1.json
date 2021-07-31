@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aier:icy_iron_block"
+    }
+  ],
+  "result": {
+    "item": "aier:icy_iron_ingot",
+    "count": 9
+  }
+}

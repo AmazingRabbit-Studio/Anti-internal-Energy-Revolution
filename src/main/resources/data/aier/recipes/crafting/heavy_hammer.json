@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "aier:black_icy_iron_block"
+    },
+    "B": {
+      "item": "aier:black_icy_iron_stick"
+    }
+  },
+  "result": {
+    "item": "aier:heavy_hammer",
+    "count": 1
+  }
+}

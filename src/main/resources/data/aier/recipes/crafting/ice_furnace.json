@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "aier:icy_iron_ingot"
+    },
+    "B": {
+      "item": "aier:ice_core"
+    }
+  },
+  "result": {
+    "item": "aier:ice_furnace"
+  }
+}

@@ -1,9 +1,6 @@
 package io.github.armramzing.aier.block;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockRenderType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.BlockWithEntity;
+import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
@@ -19,6 +16,8 @@ import net.minecraft.util.ItemScatterer;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
@@ -36,6 +35,17 @@ public class HandCrankedGrinder extends BlockWithEntity {
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         super.appendProperties(builder);
         builder.add(FACING);
+    }
+
+    public static final VoxelShape LOW = VoxelShapes.cuboid(3/16f, 0, 3/16f,13/16f, 5/16f, 13/16f);
+    public static final VoxelShape HIGH_1 = VoxelShapes.cuboid(6/16f,5/16f,6/16f,10/16f,6/16f, 10/16f);
+    public static final VoxelShape HIGH_2 = VoxelShapes.cuboid(5/16f,6/16f,5/16f,11/16f,8/16f,11/16f);
+    public static final VoxelShape HIGH_3 = VoxelShapes.cuboid(4/16f,8/16f,4/16f,12/16f,10/16f,12/16f);
+
+
+    @Override
+    public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
+            return VoxelShapes.union(LOW,HIGH_1,HIGH_2,HIGH_3);
     }
 
     @Nullable

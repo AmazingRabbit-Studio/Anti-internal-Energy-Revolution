@@ -33,8 +33,6 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 import java.util.Random;
 
-import static io.github.armramzing.aier.block.Blocks.LIT;
-
 /**
  * @author squid233
  * @since 2021/01/17

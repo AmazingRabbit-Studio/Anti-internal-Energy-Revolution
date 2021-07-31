@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "aier:icy_iron_ingot"
+    },
+    "B": {
+      "item": "aier:icy_iron_gear"
+    },
+    "C": {
+      "item": "aier:icy_iron_stick"
+    }
+  },
+    "result": {
+      "item": "aier:hand_cranked_grinder"
+    }
+}
