@@ -1,0 +1,6 @@
+{
+  "name": "機器",
+  "description": "此部分會告訴你有關各種機器的信息",
+  "icon": "aier:ice_furnace",
+  "sortnum": 5
+}

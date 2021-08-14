@@ -1,0 +1,12 @@
+{
+  "name": "The Generosity",
+  "icon": "minecraft:book",
+  "category": "stories",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "你与你的第一个真心朋友一起，击败了黑暗魔王。在击败黑暗魔王后，一卷彩虹色的丝线突然出现，并且闪烁着奇异的光，你百思不得其解这丝线代表着什么"
+    }
+  ]
+}

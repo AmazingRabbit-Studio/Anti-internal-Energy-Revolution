@@ -1,0 +1,6 @@
+{
+  "name": "物品",
+  "description": "此部分會告訴你有關各種物品的信息",
+  "icon": "aier:icy_iron_ingot",
+  "sortnum": 1
+}

@@ -1,0 +1,12 @@
+{
+  "name": "寒冰核心",
+  "icon": "aier:ice_core",
+  "category": "items",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "寒冰核心是所有需要燃料的机器的必要材料"
+    }
+  ]
+}

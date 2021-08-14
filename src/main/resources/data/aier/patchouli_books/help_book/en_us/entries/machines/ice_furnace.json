@@ -1,0 +1,12 @@
+{
+  "name": "Ice Furnace",
+  "icon": "aier:ice_furnace",
+  "category": "machines",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A ice furnace is the most basic machine, you can use snow and ice as its fuel"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "压缩机",
+  "icon": "aier:compressor",
+  "category": "machines",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "压缩机可以把多个物品压缩成一个物品，节省背包空间"
+    }
+  ]
+}

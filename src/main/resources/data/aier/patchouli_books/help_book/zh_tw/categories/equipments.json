@@ -1,0 +1,6 @@
+{
+  "name": "裝備",
+  "description": "此部分會告訴你有關各種裝備的信息",
+  "icon": "aier:nether_iron_alloy_ingot",
+  "sortnum": 3
+}

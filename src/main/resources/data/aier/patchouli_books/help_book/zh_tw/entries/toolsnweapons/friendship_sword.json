@@ -1,0 +1,12 @@
+{
+  "name": "友谊之剑",
+  "icon": "aier:friendship_sword",
+  "category": "toolsnweapons",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "通关本模组后得到的奖励，右键生物可以使用蝙蝠枷锁魔法，有着超高的攻击速度和伤害"
+    }
+  ]
+}

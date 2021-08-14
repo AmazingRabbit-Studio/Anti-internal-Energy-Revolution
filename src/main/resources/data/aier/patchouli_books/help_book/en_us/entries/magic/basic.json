@@ -1,0 +1,12 @@
+{
+  "name": "魔法基本",
+  "icon": "aier:angel_soul_magic",
+  "category": "magic",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "你可以通过与法师职业村民进行交易来习得基本魔法，魔法以物品形式存在，所以你必须要处理好快捷栏中各种物品和魔法的数量占比"
+    }
+  ]
+}

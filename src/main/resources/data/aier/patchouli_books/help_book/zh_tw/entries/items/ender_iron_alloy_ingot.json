@@ -1,0 +1,12 @@
+{
+  "name": "末影铁合金锭",
+  "icon": "aier:ender_iron_alloy_ingot",
+  "category": "items",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "末影铁合金锭可以合成下界铁合金装备，末影铁合金装备的详情请看末影铁合金装备章节"
+    }
+  ]
+}

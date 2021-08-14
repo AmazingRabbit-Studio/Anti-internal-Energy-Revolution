@@ -1,0 +1,12 @@
+{
+  "name": "The Loyalty",
+  "icon": "minecraft:book",
+  "category": "stories",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "你与你的两个真心朋友一起，击败了混沌之主。在击败混沌之主后，一个闪电徽章突然出现，并且闪烁着奇异的光，你百思不得其解这徽章代表着什么，就像那卷丝线出现时那样"
+    }
+  ]
+}

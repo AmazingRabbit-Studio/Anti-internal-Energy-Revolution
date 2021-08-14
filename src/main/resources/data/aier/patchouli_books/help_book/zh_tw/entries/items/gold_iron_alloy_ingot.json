@@ -1,0 +1,12 @@
+{
+  "name": "金铁合金锭",
+  "icon": "aier:gold_iron_alloy_ingot",
+  "category": "items",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "金铁合金锭可以合成金铁合金装备，金铁合金装备的详情请看金铁合金装备章节"
+    }
+  ]
+}

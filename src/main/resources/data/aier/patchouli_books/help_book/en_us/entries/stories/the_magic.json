@@ -1,0 +1,12 @@
+{
+  "name": "The Magic",
+  "icon": "minecraft:book",
+  "category": "stories",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "你与你的五个真心朋友一起，击败了冰冷至暗。在击败冰冷至暗后，一枚挂饰突然出现，并且闪烁着奇异的光，你百思不得其解这挂饰代表着什么，就像那五样同样奇异的物品出现时那样"
+    }
+  ]
+}

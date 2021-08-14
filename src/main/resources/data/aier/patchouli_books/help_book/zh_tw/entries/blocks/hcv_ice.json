@@ -1,0 +1,12 @@
+{
+  "name": "高热值冰",
+  "icon": "aier:hcv_ice",
+  "category": "blocks",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "高热值冰可以给物品或机器提供更多的内能"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "黑冰",
+  "icon": "aier:black_ice",
+  "category": "blocks",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "黑冰可以给物品或机器提供黑暗能量"
+    }
+  ]
+}

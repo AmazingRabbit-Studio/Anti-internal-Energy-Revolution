@@ -1,0 +1,12 @@
+{
+  "name": "融合机",
+  "icon": "aier:fusion_machine",
+  "category": "machines",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "融合机可以把两种不同的材料融合，从而合成合金等更高级的材料"
+    }
+  ]
+}

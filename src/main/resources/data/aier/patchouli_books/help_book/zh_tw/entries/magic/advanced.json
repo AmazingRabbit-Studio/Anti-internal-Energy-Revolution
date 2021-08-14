@@ -1,0 +1,12 @@
+{
+  "name": "魔法进阶",
+  "icon": "aier:chain_of_bats_magic",
+  "category": "magic",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "你可以在魔法合成台中将两个魔法合并成新的魔法，也可以在武装魔法合成台中将魔法用于合成装备"
+    }
+  ]
+}

@@ -36,7 +36,7 @@ public class Bayonet extends SwordItem {
         if(isCrazy){
             entity.heal(-1000000);
             user.removeStatusEffect(StatusEffects.SPEED);
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS,200,0));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS,200,4));
             user.getItemCooldownManager().set(this, 200);
             isCrazy = false;
         }

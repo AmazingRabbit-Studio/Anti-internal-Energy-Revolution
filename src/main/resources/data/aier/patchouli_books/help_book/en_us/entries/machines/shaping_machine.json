@@ -1,0 +1,12 @@
+{
+  "name": "塑造机",
+  "icon": "aier:shaping_machine",
+  "category": "machines",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "塑造机可以将一个物品通过模具塑造成不同的形态，这样可以使得原本需要多个原材料做出的物品只需要一个原材料就可以做出"
+    }
+  ]
+}

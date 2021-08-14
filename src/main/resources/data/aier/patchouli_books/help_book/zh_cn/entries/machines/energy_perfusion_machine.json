@@ -1,0 +1,12 @@
+{
+  "name": "能量灌注机",
+  "icon": "aier:energy_perfusion_machine",
+  "category": "machines",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "能量灌注机将其他物品中蕴含的能量抽取出来，然后注入到另一个物品里，寒冰系的物品会被抽取出内能，黑暗系的则是黑暗能量，灵魂系的则是灵魂能量"
+    }
+  ]
+}

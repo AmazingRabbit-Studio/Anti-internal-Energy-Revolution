@@ -1,0 +1,12 @@
+{
+  "name": "手摇粉碎机",
+  "icon": "aier:hand_cranked_grinder",
+  "category": "machines",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "手摇粉碎机可以让你在不使用燃料的情况下，将物体粉碎成较大的颗粒，将燃料粉碎可以增大其实际提供的热量"
+    }
+  ]
+}

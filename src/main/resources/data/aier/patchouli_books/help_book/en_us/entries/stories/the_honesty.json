@@ -1,0 +1,12 @@
+{
+  "name": "The Honesty",
+  "icon": "minecraft:book",
+  "category": "stories",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "你与你的五个真心朋友一起，击败了暗影魔驹。在击败暗影魔驹后，一枚硬币突然出现，并且闪烁着奇异的光，你百思不得其解这硬币代表着什么，就像那四样同样奇异的物品出现时那样"
+    }
+  ]
+}

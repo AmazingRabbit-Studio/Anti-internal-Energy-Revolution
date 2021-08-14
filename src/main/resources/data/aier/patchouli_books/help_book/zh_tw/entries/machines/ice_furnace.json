@@ -1,0 +1,12 @@
+{
+  "name": "寒冰熔爐",
+  "icon": "aier:ice_furnace",
+  "category": "machines",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "寒冰熔爐是最基礎的機器，你可以用冰雪作為它的燃料"
+    }
+  ]
+}

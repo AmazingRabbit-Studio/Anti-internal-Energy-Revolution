@@ -1,0 +1,12 @@
+{
+  "name": "黑寒铁锭",
+  "icon": "aier:black_icy_iron_ingot",
+  "category": "items",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Black icy ingots are the necessary ingredients of the whole machines of medium and high level(Not all machines made from black icy iron ingots have black)"
+    }
+  ]
+}

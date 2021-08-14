@@ -1,0 +1,7 @@
+{
+  "name": "item.aier.help_book",
+  "landing_text": "item.aier.help_book.tooltip1",
+  "version": 1,
+  "creative_tab": "aier.aier",
+  "index_icon": "aier:help_book"
+}

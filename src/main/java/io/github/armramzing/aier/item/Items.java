@@ -11,6 +11,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public final class Items {
+    //help book
+    public static final Item HELP_BOOK = register("help_book", new Item(defaultGroup().group(null).maxCount(1)));
     //blocks
     public static final Item ICE_FURNACE = register("ice_furnace", new BlockItem(Blocks.ICE_FURNACE, defaultGroup()));
     public static final Item HAND_CRANKED_GRINDER = register("hand_cranked_grinder", new BlockItem(Blocks.HAND_CRANKED_GRINDER,defaultGroup()));

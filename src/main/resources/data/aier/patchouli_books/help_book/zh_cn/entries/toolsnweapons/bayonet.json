@@ -1,0 +1,12 @@
+{
+  "name": "刺刀",
+  "icon": "aier:bayonet",
+  "category": "toolsnweapons",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "按右键可以进入狂暴状态，给玩家提供速度5，之后对着生物右键可以秒杀，秒杀后玩家会获得缓慢5"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "The Origin",
+  "icon": "minecraft:book",
+  "category": "stories",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Once upon a time, in the magical land of Aquastria, there were two regal sisters who ruled together and created harmony for all the land. To do this, the eldest used her magic powers to raise the sun at dawn; the younger brought out the moon to begin the night. Thus, the two sisters maintained balance for their kingdom and their subjects. But as time went on, the younger sister became resentful. The "
+    },
+    {"type": "text",
+      "text": "people relished and played in the day her elder sister brought forth, but shunned and slept through her beautiful night. One fateful day, the younger sister refused to lower the moon to make way for the dawn. The elder sister tried to reason with her, but the bitterness in the young one's heart had transformed her into the Queen of Darkness. She vowed that she would shroud the land in eternal night. Reluctantly, the elder sister harnessed the most powerful magic known to "
+    },
+    {"type": "text",
+      "text": "the world: the Magical Crystals of Harmony. Using the magic of the Magical Crystals of Harmony, she defeated her younger sister, and banished her permanently in the moon. The elder sister took on responsibility for both sun and moon. and harmony has been maintained in Aquastria for generations since."
+    }
+  ]
+}

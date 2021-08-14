@@ -1,0 +1,12 @@
+{
+  "name": "下界铁合金锭",
+  "icon": "aier:nether_iron_alloy_ingot",
+  "category": "items",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "下界铁合金锭可以合成下界铁合金装备，下界铁合金装备的详情请看下界铁合金装备章节"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "BBB",
-    "B B",
+    "BCB",
     "AAA"
   ],
   "key": {
@@ -11,6 +11,9 @@
     },
     "B": {
       "item": "aier:black_icy_iron_ingot"
+    },
+    "C": {
+      "item": "aier:ice_core"
     }
   },
   "result": {

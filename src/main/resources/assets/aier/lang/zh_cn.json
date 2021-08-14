@@ -43,9 +43,6 @@
   "block.aier.energy_perfusion_machine": "能量灌注机",
 
   "item.aier.help_book.tooltip1": "§l温度越高内能越小",
-  "item.heavy_hammer.fabric_item.tooltip": "§7右键特定的方块可以使方块变硬",
-  "item.heavy_hammer.fabric_item.tooltip1": "§7用它来挖方块也是可以的",
-  "item.heavy_hammer.fabric_item.tooltip2": "§7攻击速度很低",
   "item.blue_fire_sword.fabric_item.tooltip": "§b§l鬼火一响",
   "item.blue_fire_sword.fabric_item.tooltip1": "§4§l爹妈白养",
   "item.friendship_sword.fabric_item.tooltip": "§5§l友谊是魔法！！！",

@@ -1,0 +1,12 @@
+{
+  "name": "寒铁锭",
+  "icon": "aier:icy_iron_ingot",
+  "category": "items",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "寒铁锭是所有初级机器的必要材料"
+    }
+  ]
+}

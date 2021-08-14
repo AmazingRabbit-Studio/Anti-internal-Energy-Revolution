@@ -1,0 +1,12 @@
+{
+  "name": "鬼火剑",
+  "icon": "aier:blue_fire_sword",
+  "category": "toolsnweapons",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "自带火焰附加127"
+    }
+  ]
+}

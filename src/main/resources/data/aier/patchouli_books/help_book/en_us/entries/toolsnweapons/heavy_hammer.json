@@ -1,0 +1,12 @@
+{
+  "name": "重锤",
+  "icon": "aier:heavy_hammer",
+  "category": "toolsnweapons",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "用重锤对着一些特定方块右键可以增加其硬度，使其防爆"
+    }
+  ]
+}

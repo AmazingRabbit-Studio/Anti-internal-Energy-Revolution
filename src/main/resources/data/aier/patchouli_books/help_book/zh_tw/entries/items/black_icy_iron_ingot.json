@@ -1,0 +1,12 @@
+{
+  "name": "黑寒铁锭",
+  "icon": "aier:black_icy_iron_ingot",
+  "category": "items",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "黑寒铁锭是所有中高级机器的必要材料（并不是所有用黑寒铁锭做的机器都有黑色）"
+    }
+  ]
+}
