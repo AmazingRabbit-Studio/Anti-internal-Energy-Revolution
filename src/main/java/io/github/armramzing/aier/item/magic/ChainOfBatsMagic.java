@@ -41,14 +41,8 @@ public class ChainOfBatsMagic extends Item{
         entity.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER,60,3));
         entity.addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION,60,1));
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION,60,1));
-        return super.useOnEntity(stack, user, entity, hand);
-    }
-
-    @Override
-    public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-        user.playSound(SoundEvents.ENTITY_BAT_DEATH, SoundCategory.PLAYERS,1.0F,1.0F);
         user.getItemCooldownManager().set(this, 200);
-        return super.use(world, user, hand);
+        return super.useOnEntity(stack, user, entity, hand);
     }
 
     @Override

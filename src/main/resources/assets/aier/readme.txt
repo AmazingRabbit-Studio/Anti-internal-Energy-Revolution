@@ -1,0 +1,3 @@
+刺刀的材质是AR_Mr_Amzing做的，因为AR_Mr_Amzing不太了解美术方面的工作，所以十分混乱，如果你想要改刺刀的材质，建议不要改贴图，而是把刺刀的模型拖进BlockBbnch里再进行更改
+
+The textures of the bayonet was made by AR_Mr_Amzing.AR_Mr_Amzing was not good at the work of art, so the textures are in a mess. If you would like to edit the textures of the bayonet, I suggest you should not just edit its textures instead of put the model of the bayonet into Blockbench then edit it.

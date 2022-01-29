@@ -26,7 +26,7 @@ public class Bayonet extends SwordItem {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         user.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED,200,4));
-        user.getItemCooldownManager().set(this, 400);
+        user.getItemCooldownManager().set(this, 800);
         isCrazy = true;
         return super.use(world, user, hand);
     }

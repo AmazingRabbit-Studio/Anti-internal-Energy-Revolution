@@ -1,5 +1,6 @@
 package io.github.armramzing.aier.block;
 
+import io.github.armramzing.aier.recipe.IceCookingRecipe;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockRenderType;
 import net.minecraft.block.BlockState;
@@ -7,6 +8,7 @@ import net.minecraft.block.BlockWithEntity;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.particle.ParticleTypes;
@@ -18,6 +20,7 @@ import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
+import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.ActionResult;
@@ -31,6 +34,7 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.Random;
 
 /**
@@ -131,4 +135,32 @@ public class IceFurnace extends BlockWithEntity {
             worldIn.addParticle(ParticleTypes.FLAME, d0 + d5, d1 + d6, d2 + d7, 0.0D, 0.0D, 0.0D);
         }
     }
+
+    /*@Override
+    public boolean activate(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult result) {
+        // Something that gives the player items should always go through the server.
+        // If you need to notify the client in some way, check in the server and then send a packet to the client.
+        if (!world.isClient()) {
+            // For the sake of simplicity we draw the items off of the player's hands and create an inventory from that.
+            // Usually you use an inventory of yours instead.
+            Inventory inventory = new Inventory(player.getMainHandStack(), player.getOffHandStack());
+
+            // Or use .getAllMatches if you want all of the matches
+            Optional<IceCookingRecipe> match = world.getRecipeManager()
+                    .getFirstMatch(IceCookingRecipe.Type.INSTANCE, inventory, world);
+
+            if (match.isPresent()) {
+                // Give the player the item and remove from what he has. Make sure to copy the ItemStack to not ruin it!
+                player.inventory.offerOrDrop(world, match.get().getOutput().copy());
+                player.getMainHandStack().decrement(1);
+                player.getOffHandStack().decrement(1);
+            } else {
+                // If it doesn't match we tell the player
+                player.sendMessage(new LiteralText("No match!"));
+            }
+        }
+
+        return true;
+    }*/
+
 }
